@@ -1,0 +1,9 @@
+marks=int(input("enter your marks"))
+if marks>=90:
+  print("you are in grade A")
+elif marks>=70:
+  print("you are in grade B")
+else:
+  print("you are in grade F") 
+enter your marks69
+you are in grade F
