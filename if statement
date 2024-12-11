@@ -1,0 +1,5 @@
+age=18
+if age>=18:
+  print("you arte eligible to voting")
+  
+  you arte eligible to voting
