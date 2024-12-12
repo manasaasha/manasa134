@@ -1,0 +1,4 @@
+def a_man(**body):
+  for key,value in body.items():
+    print(f"{key}: {value}")
+a_man(name="suman", height="tall",weight="heavy")
