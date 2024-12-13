@@ -1,0 +1,15 @@
+import random
+responses=[
+    "it is certain",
+    "reply hazy,try again",
+    "don't count on it",
+    "yes,definitely",
+    "ask again later",
+    "my reply is no",
+    "outlook not so good",
+    "signs point to yes"
+]
+
+print("ask the magic 8 ball a question:")
+input()
+print(random.choice(responses))
