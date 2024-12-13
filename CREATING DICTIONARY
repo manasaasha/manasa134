@@ -1,0 +1,7 @@
+
+book={"title":"python basic","author":"john doe","year":2021}
+
+
+print(book["title"])
+
+book["year"]
