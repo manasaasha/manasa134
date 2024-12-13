@@ -1,0 +1,8 @@
+fruits=["apple","orange","cherry"]
+fruits.append("banana")
+fruits
+
+
+
+fruits.remove("orange")
+fruits
