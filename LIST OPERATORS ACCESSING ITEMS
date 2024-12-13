@@ -1,0 +1,6 @@
+print(a[2])
+a
+print(a[-3])
+a
+print(ab[-3])
+ab
