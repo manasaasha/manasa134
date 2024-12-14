@@ -1,0 +1,18 @@
+#appending data type
+with open("/content/manasa sa.txt","a") as file:
+  file.write("lets learn file handling")
+  print(content)
+
+with open ("/content/manasa sa.txt","r")as file:
+  print(file.read())
+
+#handlimg division by zero error
+try:
+  num1= int(input("enter a number:"))
+  num2= int(input("enter a denominator:"))
+  result= num1/num2
+except ZeroDivisionError:
+  print("cannot devide by zero")
+except ValueError:
+  print("invalid input!enter numeric values")    
+
