@@ -1,0 +1,4 @@
+#using with method
+with open("/content/manasa sa.txt","r") as file:
+  content = file.read()
+print(content)
