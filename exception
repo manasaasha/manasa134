@@ -1,0 +1,26 @@
+#handlimg division by zero error
+try:
+  num1= int(input("enter a number:"))
+  num2= int(input("enter a denominator:"))
+  result= num1/num2
+except ZeroDivisionError:
+  print("cannot devide by zero")
+except ValueError:
+  print("invalid input!enter numeric values")    
+
+
+
+
+
+#creating custom exception
+class NegativeNumberError(Exception):
+  pass
+def check_positive(number):
+  if number<0:
+    raise NegativeNumberError("Negative number entered!")
+try:
+  num = int(input("enter a number"))
+  check_positive(num)
+  print("you entered a posiotive number")
+except NegativeNumberError as e:
+  print(e)        
