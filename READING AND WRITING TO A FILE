@@ -1,0 +1,7 @@
+with open("/content/manasa sa.txt","w") as file:
+  file.write("python is awesome!")
+  print(content)
+
+
+with open("/content/manasa sa.txt","r") as file:
+  print(file.read())
