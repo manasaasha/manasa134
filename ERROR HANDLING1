@@ -1,0 +1,18 @@
+# finally block
+try:
+  file = open("/content/manasa sa.txt","r")
+except FileNotFoundError:
+  print("file not found")
+finally:
+  print("execution complete")    
+
+#raising exception
+def check_age(age):
+  if age<18:
+    raise ValueError("age must be 18 or older!")
+    return True
+
+try:
+  check_age(16)
+except ValueError as e:
+  print(e)      
