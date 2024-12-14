@@ -1,0 +1,19 @@
+file = open("/content/manasa sa.txt","r")
+file = open("/content/manasa sa.txt","r")
+content = file.read()
+print(content)
+file.close()
+
+
+# reading a line with readline
+file = open("/content/manasa sa.txt","r")
+content = file.readline()
+print(content)
+file.close()
+
+
+# reading all lines with readlines
+file = open("/content/manasa sa.txt","r")
+content = file.readlines()
+print(content)
+file.close()
