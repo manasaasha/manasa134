@@ -1,0 +1,10 @@
+#polymorphism
+class Bird:
+  def speak(self):
+    print("i chirp")
+class Parrot(Bird):
+  def speak(self):
+    print("i mimic")
+
+parrot = Parrot()
+parrot.speak() #Putput:i mimic
