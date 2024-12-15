@@ -1,0 +1,11 @@
+#inheritance
+class Animal:
+  def speak(self):
+    print("i am a animal")
+
+class Dog(Animal):
+  def speak(self):
+    print("i bark")
+
+dog = Dog()
+dog.speak() #Output: i bark    
